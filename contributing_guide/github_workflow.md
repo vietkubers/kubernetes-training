@@ -24,7 +24,7 @@
 <a name="-clone-fork-repository-to-local"><a/>
 ### 3. Clone the forked repository to local
 
-Clone the forked repo in [above step](<a name="-fork-a-repository"><a/>) to your local working directory:
+Clone the forked repo in [above step](#2-fork-a-repository) to your local working directory:
 ```sh
 $ git clone https://github.com/$user/kubernetes.git
 
@@ -68,7 +68,7 @@ $ git checkout -b mybranch
 ##### Commit
 
 Make any change on the branch `mybranch` then build and test your codes.  
-Include in what will be commited:
+Include in what will be committed:
 ```sh
 $ git add <file>
 ```
@@ -88,3 +88,6 @@ $ git push -f $remotename mybranch
 
 <a name="-create-a-pull-request"><a/>
 ### 6. Create a Pull Request
+
+- Go to your fork at https://github.com/$user/kubernetes
+- Hit the button 
