@@ -13,7 +13,7 @@
 
 <a name="-big-picture"><a/>
 ### 1. Big picture
-
+![workflow](images/github_workflow.png)
 
 <a name="-fork-a-repository"><a/>
 ### 2. Fork a repository
@@ -90,4 +90,5 @@ $ git push -f $remotename mybranch
 ### 6. Create a Pull Request
 
 - Go to your fork at https://github.com/$user/kubernetes
-- Hit the button 
+- Hit the button ![PR](images/compare-pullrequest) next to branch `mybranch`
+- Flow the following processes to create a new pull request
