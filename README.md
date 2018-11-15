@@ -19,10 +19,11 @@ Summary the training material from LXC to Docker and Kubernetes
 ## How to contribute to kubernetes community
 - Install minikube
 - Join Kubernetes slack
+- [Github workflow](/contributing_guide/github_workflow.md)
 
 ## References
   - https://www.slideshare.net/imesh/an-introduction-to-kubernetes
   - https://medium.com/@ApsOps/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727
   
 # License
-Copyright © 2018, **PODC Network Team (Fujitsu Vietnam)**. Released under the [MIT License](https://github.com/truongnh1992/kubernetes-training/blob/master/LICENSE).
+Copyright © 2018, [VietKubers](https://www.facebook.com/groups/2222929814634525). Released under the [MIT License](https://github.com/truongnh1992/kubernetes-training/blob/master/LICENSE).
