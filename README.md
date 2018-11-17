@@ -2,7 +2,8 @@
 Summary the training material from LXC to Docker and Kubernetes
 
 ## LXC
-  - namespace
+  - namespace:
+    - http://abregman.com/2016/09/29/linux-network-namespace/
   - cgroups
   - seccomp
   - chroot
