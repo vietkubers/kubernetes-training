@@ -3,10 +3,15 @@ Summary the training material from LXC to Docker and Kubernetes
 
 ## LXC
   - namespace:
-    - http://abregman.com/2016/09/29/linux-network-namespace/
-  - [cgroups](/LXC/cgroups.md)
+    - [Network](http://abregman.com/2016/09/29/linux-network-namespace/)
+    - PID
+    - [cgroups](/LXC/cgroups.md)
+    - IPC
+    - Mount
+    - UTS
+    - User
   - seccomp
-  - chroot
+  - [chroot](/LXC/chroot.md)
 ## Docker
   - Manage LXC
 ## Kubernetes
