@@ -13,6 +13,7 @@
 
 `cgroups` stands for **Control Groups**, it's a feature of Linux kernel that allocates and isolates resources: CPU, memory, disk I/O and networking of one or more processes.  
 The below figure shows the configurations of `cgroups` in Linux kernel:
+
 ![cgroups](images/cgroups-kernel.PNG)
 
 The design of `cgroup` aims to provide a unified interface to manage processes or OS-level virtualization, including `Linux Containers` (LXC):  
