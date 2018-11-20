@@ -2,15 +2,26 @@
 Summary the training material from LXC to Docker and Kubernetes
 
 ## LXC
-  - namespace:
+ - namespace:
     - [Network](http://abregman.com/2016/09/29/linux-network-namespace/)
     - [cgroups](/LXC/cgroups.md)
-  - seccomp
-  - [chroot](/LXC/chroot.md)
+ - seccomp
+ - [chroot](/LXC/chroot.md)
+ 
 ## Docker
-  - Manage LXC
+
+ - Docker lab
+   - [Deploying flask app with Dockerfile](/Docker/docker-lab/flask-app)
+   - [Docker compose to run Django app](/Docker/docker-lab/django-app)
+   - [GUI with Docker](/Docker/docker-lab/firefox-gui)
+
+ - Useful Resources
+   - [Awesome-docker](https://github.com/veggiemonk/awesome-docker)
+   - [Docker tutorials and labs](https://github.com/docker/labs)
+
 ## Kubernetes
   - Hosting Docker containers in a cluster environment with multiple docker host
+
 ## Go language
 
 ## eBPF and XDP for network
