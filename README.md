@@ -22,6 +22,7 @@ Summary the training material from LXC to Docker and Kubernetes
 
 ## Kubernetes
   - Hosting Docker containers in a cluster environment with multiple docker host
+  - [Deploying multiple nodes with Kubeadm](/Kubernetes/deploy_multiple_node.md)
 
 ## Go language
 
