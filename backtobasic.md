@@ -1,2 +1,2 @@
-# Good stuff for learning Linux network
+# Good stuff for learning Linux networking
 - https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking/
