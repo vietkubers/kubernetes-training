@@ -4,7 +4,7 @@ A solution to software deployment, Docker wraps everything that belongs to a sof
 
 ### Docker architecture
 
-![Docker architecture](Docker_Architecture.png)
+![Docker architecture](/Docker/img/Docker_Architecture.png)
 
 #### How Docker images are created 
 
@@ -94,11 +94,15 @@ After running containers, we have some changes/new layers added to the base imag
 
 ### Docker Compose
 
-####Compose file reference
+... updating
 
 ### Docker Networking
 
+... updating
+
 ### Docker Storage
+
+... updating
 
 
 
