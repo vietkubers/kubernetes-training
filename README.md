@@ -21,8 +21,8 @@ Summary the training material from LXC to Docker and Kubernetes
    - [Docker tutorials and labs](https://github.com/docker/labs)
 
 ## Kubernetes
-  - Hosting Docker containers in a cluster environment with multiple docker host
   - [Deploying multiple nodes with Kubeadm](/Kubernetes/deploy_multiple_node.md)
+  - [Set up a single cluster with minikube behind proxy](/Kubernetes/single_node_minikube_behind_proxy.md)
 
 ## Go language
 
@@ -40,4 +40,4 @@ Summary the training material from LXC to Docker and Kubernetes
   - https://medium.com/@ApsOps/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727
   
 # License
-Copyright © 2018, [VietKubers](https://www.facebook.com/groups/VietKubers/). Released under the [MIT License](https://github.com/truongnh1992/kubernetes-training/blob/master/LICENSE).
+Copyright © 2018, [VietKubers](https://www.facebook.com/groups/VietKubers/). Released under the [MIT License](https://github.com/vietkubers/kubernetes-training/blob/master/LICENSE).
