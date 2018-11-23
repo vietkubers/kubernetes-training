@@ -53,13 +53,12 @@ $ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linu
   && sudo install minikube-linux-amd64 /usr/local/bin/minikube
 $ sudo apt-get install -y apt-transport-https
 $ sudo apt-get install -y docker.io
-$ sudo apt-get install -y kubelet kubeadm 
 ```
 
 Deploy single cluster with minikube --vm-driver none
 ```sh
 $ export no_proxy=$no_proxy,[Your_Ip]
-$ minikube start --vm-driver=none --logtostderr
+$ sudo minikube start --vm-driver=none --logtostderr
 ```
 
 Logout root user and run:
