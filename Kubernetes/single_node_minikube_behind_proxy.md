@@ -5,7 +5,7 @@ Preparing environment
 =====================
 OS: Ubuntu 16.04 LTS
 
-Clear previous install if you've already done it before:
+Clear previous installation if you've already done it before:
 ```sh
 $ sudo kubeadm reset
 $ sudo rm -rf /var/lib/minikube/certs/
@@ -19,6 +19,14 @@ $ sudo vim /etc/apt/apt.conf
 ...
 Acquire::http::proxy "http://[Proxy_Server]:[Proxy_Port]/";
 Acquire::HTTP::proxy "http://[Proxy_Server]:[Proxy_Port]/";
+```
+
+Please note that some distros do not keep proxy settings
+Make sure "sudo" keeps these settings including: http_proxy, https_proxy & no_proxy
+```sh
+$ sudo visudo
+#Add the following line
+Defaults env_keep += "ftp_proxy http_proxy https_proxy no_proxy"
 ```
 
 Set up kubernetes repo:
@@ -51,10 +59,7 @@ $ sudo apt-get install -y kubelet kubeadm
 Deploy single cluster with minikube --vm-driver none
 ```sh
 $ export no_proxy=$no_proxy,[Your_Ip]
-```
-Please note that switch to root user, because some distro doesn't keep proxy setting, then:
-```sh
-# minikube start --vm-driver=none --logtostderr
+$ minikube start --vm-driver=none --logtostderr
 ```
 
 Logout root user and rub:
