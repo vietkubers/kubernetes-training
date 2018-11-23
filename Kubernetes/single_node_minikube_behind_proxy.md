@@ -62,7 +62,7 @@ $ export no_proxy=$no_proxy,[Your_Ip]
 $ minikube start --vm-driver=none --logtostderr
 ```
 
-Logout root user and rub:
+Logout root user and run:
 
 ```sh
 $ sudo cp -R /root/.kube $HOME/.kube
