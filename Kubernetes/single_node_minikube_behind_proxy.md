@@ -41,8 +41,11 @@ Environment="HTTP_PROXY=http://[Proxy_Server]:[Proxy_Port]/"
 
 Install minikube
 ```sh
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
+$ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
   && sudo install minikube-linux-amd64 /usr/local/bin/minikube
+$ sudo apt-get install -y apt-transport-https
+$ sudo apt-get install -y docker.io
+$ sudo apt-get install -y kubelet kubeadm 
 ```
 
 Deploy single cluster with minikube --vm-driver none
