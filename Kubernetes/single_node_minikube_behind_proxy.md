@@ -72,5 +72,26 @@ $ sudo chown -R $USER $HOME/.minikube
 $ sudo chgrp -R $USER $HOME/.minikube
 ```
 
+Note:
+In order to run kubectl without sudo:
+```sh
+# change root to user path
+$ vi .kube/config
+- cluster:
+    certificate-authority: /home/kuber/.minikube/ca.crt
+    server: https://10.0.2.15:8443
+  name: minikube
+...
+user:
+    client-certificate: /home/kuber/.minikube/client.crt
+    client-key: /home/kuber/.minikube/client.key
+
+# setting env var
+$ vi .bashrc
+export CHANGE_MINIKUBE_NONE_USER=true
+
+```
+
+
 Happy hacking!
 ==============
