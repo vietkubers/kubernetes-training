@@ -11,8 +11,8 @@ $ sudo kubeadm reset
 $ sudo rm -rf /var/lib/minikube/certs/
 $ sudo rm -rf /etc/kubernetes/
 $ sudo rm -rf /etc/lib/etcd/
-$ sudo rm -rf /.kube
-$ sudo rm -rf /.minikube
+$ sudo rm -rf $HOME/.kube
+$ sudo rm -rf $HOME/.minikube
 ```
 
 Config apt proxy:
