@@ -58,24 +58,11 @@ $ sudo apt-get install -y docker.io
 Deploy single cluster with minikube --vm-driver none
 ```sh
 $ export no_proxy=$no_proxy,[Your_Ip]
+$ export CHANGE_MINIKUBE_NONE_USER=true
 $ sudo minikube start --vm-driver=none --logtostderr
 ```
-
-Logout root user and run:
-
+Run minikube without sudo
 ```sh
-$ sudo cp -R /root/.kube $HOME/.kube
-$ sudo chown -R $USER $HOME/.kube
-$ sudo chgrp -R $USER $HOME/.kube
-$ sudo cp -R /root/.minikube $HOME/.minikube
-$ sudo chown -R $USER $HOME/.minikube
-$ sudo chgrp -R $USER $HOME/.minikube
-```
-
-Note:
-In order to run kubectl without sudo:
-```sh
-# change root to user path
 $ vi .kube/config
 - cluster:
     certificate-authority: /home/kuber/.minikube/ca.crt
@@ -85,11 +72,6 @@ $ vi .kube/config
 user:
     client-certificate: /home/kuber/.minikube/client.crt
     client-key: /home/kuber/.minikube/client.key
-
-# setting env var
-$ vi .bashrc
-export CHANGE_MINIKUBE_NONE_USER=true
-
 ```
 
 
