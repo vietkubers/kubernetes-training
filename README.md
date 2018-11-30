@@ -6,7 +6,7 @@ Summary the training material from LXC to Docker and Kubernetes
     - [Network](http://abregman.com/2016/09/29/linux-network-namespace/)
       - [Introduction to Linux Network Namespace](https://www.youtube.com/watch?v=_WgUwUf1d34)
     - [cgroups](/LXC/cgroups.md)
- - seccomp
+ - [seccomp](/LXC/seccomp.md)
  - [chroot](/LXC/chroot.md)
  
 ## Docker
