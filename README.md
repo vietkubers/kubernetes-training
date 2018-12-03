@@ -31,7 +31,7 @@ Summary the training material from LXC to Docker and Kubernetes
 - Cilium, Istio, Envoy
 
 ## How to contribute to kubernetes community
-- Install minikube
+- [Install minikube](/Kubernetes/single_node_minikube_behind_proxy.md)
 - Join Kubernetes slack
 - [Github workflow](/contributing_guide/github_workflow.md)
 
