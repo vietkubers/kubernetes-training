@@ -20,8 +20,8 @@ Consider this Dockerfile:
 # our base image
 FROM alpine:3.5
 
-ENV http_proxy=http://10.164.177.170:8080
-ENV https_proxy=http://10.164.177.170:8080
+ENV http_proxy [Your_Proxy]
+ENV https_proxy [Your_Proxy]
 
 # Install python and pip
 RUN apk add --update py2-pip
