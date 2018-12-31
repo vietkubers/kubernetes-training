@@ -42,7 +42,12 @@ $ sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf
 [Service]
 Environment="HTTP_PROXY=http://[Proxy_Server]:[Proxy_Port]/"
 ```
-   
+
+Disable swap memory usage with the following command:
+```
+swapoff -a
+```
+
 ### Installation & Deploy
 
 Adding kubernetes repo:
