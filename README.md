@@ -1,5 +1,6 @@
 # kubernetes-training
-Summary the training material from LXC to Docker and Kubernetes
+Summary the training material from LXC to Docker and Kubernetes.  
+All the technical articles of [VietKubers](https://vietkubers.github.io/) are located in: https://github.com/vietkubers/vietkubers.github.io/tree/master/pages/mydoc
 
 ## LXC
  - namespace:
